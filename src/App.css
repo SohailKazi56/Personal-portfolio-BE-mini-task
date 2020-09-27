@@ -1,38 +1,178 @@
-.App {
+
+
+.Imageclass{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.demo-content{
+  background: #3A1C71;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* home div css starts */
+
+.home-main-div{
+  
+  height: auto;
+  width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.landing-img{
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin:auto;
+  width: 350px;
+  height: 200px;
+  
+}
+
+.home-main-div .box{
+  background-color: black;
+  color: wheat;
+  border-radius: 2em;
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  opacity: 0.8;
+  padding: 1em;
+}
+
+.home-main-div .box hr{
+  width: 50%;
+  border-top: white dotted;
+  margin: auto;
+}
+
+.home-main-div .box p{
+  font-size: 2rem;
+  padding: 20px;
+}
+
+.icon{
+  font-size: 5em;
+  padding: 10px;
+}
+
+/* home div css ends */
+
+/* contact div css starts */
+
+.Contact-div{
+  background-color: rgb(204, 214, 255);
+  border-radius: 2em;
+  width: 80%;
+  height: auto;
+  margin: auto;
+  margin-top: 4%;
+  box-shadow: 0 0 20px 0 	rgb(255, 255, 255);
+}
+.Contact-div h2{
+  font-weight: 800;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.Contact-div .Contact-avtar{
+  display: flex;
+  margin: auto;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
+  width: 250px;
+  height: 180px;
 }
 
-.App-link {
-  color: #61dafb;
+.Contact-div p{
+  text-align: center;
+  margin: auto;
+  padding: 40px;
+  font-size: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Contact-div .dotted-line{
+  width: 75%;
+  border-top: black dotted;
+  margin: auto;
 }
+
+.Contact-div h3{
+ text-align: left;
+ margin: auto;
+ padding: 20px;
+ 
+}
+
+.Contact-div .Contact-icon {
+  display: flex;
+	justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 40px;
+  margin: auto;
+  padding: 20px;
+}
+
+.contact-us-cell{
+  margin: auto;
+  justify-content: center;
+}
+/*
+.Contact-div table{
+  justify-content: center;
+  margin: auto;
+  padding: 50px;
+}
+*/
+
+/* contact div css ends */
+
+/* resume div css starts */
+
+.Resume-div{
+  
+  width: 90%;
+  height: auto;
+  text-align: center;
+  background-color: rgb(230, 235, 255);
+  margin: auto;
+  color: black;
+  border-radius: 1em;
+  box-shadow: 0 0 10px 0 white;
+}
+
+.Resume-div .Profile-pic{
+  width: 100px;
+  height: 120px;
+  padding: 20px;
+
+}
+
+.Resume-div h5{
+  text-align: left;
+  margin: auto;
+  padding-left: 20px;
+}
+
+.Resume-div .div-line{
+  width: 95%;
+  border-top: black dotted;
+  margin: auto;
+  color: crimson;
+  
+  
+}
+
+
+
+/* resume div css ends */
+
+
+
+
+
+
